@@ -1,0 +1,61 @@
+.dishes__item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    width: 240px;
+}
+
+.dishes__item:hover{
+    border: 1px solid rgb(77, 77, 77);
+}
+
+.dishes__item__img{
+    width: 200px;
+    height: 200px;
+}
+
+.dish-name{
+    padding: 5px 0px 5px 0px;
+    color: white;
+}
+
+.dish-description{
+    color: rgb(146, 146, 146);
+    font-size: 12px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.dish-quantity{
+    font-size: 15px;
+    padding-top: 8px;
+    color: rgb(221, 221, 221);
+}
+
+.container-dish-line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dish-price{
+    font-size: 19px;
+    padding-top: 8px;
+    color: rgb(255, 255, 255);
+}
+.dish-block-bucket{
+    height: 30px;
+    width: 80px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 0;
+    font-size: 14px;
+}
+
+.dish-block-bucket:hover{
+    cursor: pointer;
+    background-color: rgb(167, 4, 4);
+}

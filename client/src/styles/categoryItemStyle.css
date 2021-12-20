@@ -1,0 +1,34 @@
+.categories__item{
+height: 120px;
+width: 250px; 
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.categories__item__img{
+height: inherit;
+width: inherit;
+padding: 10px;
+border-radius: 20px;
+opacity: 50%;
+position: absolute;
+}
+
+.categories__text{
+position: absolute;
+color: white;
+z-index: 2;
+font-size: 25px;
+letter-spacing: 2px;
+}
+
+.categories__item__img:hover{
+opacity: 70%;
+cursor: pointer;
+}
+
+.selected_item__img{
+opacity: 70%;
+}

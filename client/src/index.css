@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.767);
+  font-size: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.auth-title{
+  color: black;
+}
+
+.modal_text {
+  color: black;
+  font-size: 15px;
+}
+
+.modal_title {
+  color: rgb(100, 0, 0);
+  font-size: 20px;
+}
+
+.nav__button{
+  margin-right: 10px;
+}
+
+.auth-change-message{
+  color: rgb(37, 37, 37);
+  font-size: 15px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.auth__button{
+  width: 96%;
+  margin-left: 10px;
+}
