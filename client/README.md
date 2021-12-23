@@ -1,4 +1,4 @@
-To run the application, you must enter in the terminal "npm install react-scripts --save"
+To run the client part of application, you must enter in the terminal "npm install react-scripts --save"
 
 # Getting Started with Create React App
 
